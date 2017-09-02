@@ -40,19 +40,17 @@
             this.optionsButton.TabIndex = 0;
             this.optionsButton.Text = "Options";
             this.optionsButton.UseVisualStyleBackColor = true;
-            this.optionsButton.Click += new System.EventHandler(this.button1_Click);
+            this.optionsButton.Click += new System.EventHandler(this.optionButton_Click);
             // 
             // sodaNameLabel
             // 
-            this.sodaNameLabel.AutoSize = true;
-            this.sodaNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sodaNameLabel.Location = new System.Drawing.Point(180, 107);
+            this.sodaNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sodaNameLabel.Location = new System.Drawing.Point(-1, 115);
             this.sodaNameLabel.Name = "sodaNameLabel";
-            this.sodaNameLabel.Size = new System.Drawing.Size(405, 163);
+            this.sodaNameLabel.Size = new System.Drawing.Size(757, 163);
             this.sodaNameLabel.TabIndex = 1;
             this.sodaNameLabel.Text = "Soda";
             this.sodaNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.sodaNameLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // MainForm
             // 
@@ -64,7 +62,6 @@
             this.Name = "MainForm";
             this.Text = "Soda Picker";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

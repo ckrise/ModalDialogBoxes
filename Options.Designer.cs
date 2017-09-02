@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.sugarRadioButton = new System.Windows.Forms.RadioButton();
+            this.caneSugarRadioButton = new System.Windows.Forms.RadioButton();
             this.aspertameRadioButton = new System.Windows.Forms.RadioButton();
             this.cornSyrupRadioButton = new System.Windows.Forms.RadioButton();
             this.beverageDropDown = new System.Windows.Forms.ComboBox();
@@ -38,17 +38,16 @@
             this.cancelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // sugarRadioButton
+            // caneSugarRadioButton
             // 
-            this.sugarRadioButton.AutoSize = true;
-            this.sugarRadioButton.Location = new System.Drawing.Point(214, 72);
-            this.sugarRadioButton.Name = "sugarRadioButton";
-            this.sugarRadioButton.Size = new System.Drawing.Size(77, 24);
-            this.sugarRadioButton.TabIndex = 0;
-            this.sugarRadioButton.TabStop = true;
-            this.sugarRadioButton.Text = "Sugar";
-            this.sugarRadioButton.UseVisualStyleBackColor = true;
-            this.sugarRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.caneSugarRadioButton.AutoSize = true;
+            this.caneSugarRadioButton.Location = new System.Drawing.Point(214, 72);
+            this.caneSugarRadioButton.Name = "caneSugarRadioButton";
+            this.caneSugarRadioButton.Size = new System.Drawing.Size(119, 24);
+            this.caneSugarRadioButton.TabIndex = 0;
+            this.caneSugarRadioButton.TabStop = true;
+            this.caneSugarRadioButton.Text = "Cane Sugar";
+            this.caneSugarRadioButton.UseVisualStyleBackColor = true;
             // 
             // aspertameRadioButton
             // 
@@ -60,7 +59,6 @@
             this.aspertameRadioButton.TabStop = true;
             this.aspertameRadioButton.Text = "Aspertame";
             this.aspertameRadioButton.UseVisualStyleBackColor = true;
-            this.aspertameRadioButton.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // cornSyrupRadioButton
             // 
@@ -85,7 +83,6 @@
             this.beverageDropDown.Name = "beverageDropDown";
             this.beverageDropDown.Size = new System.Drawing.Size(121, 28);
             this.beverageDropDown.TabIndex = 1;
-            this.beverageDropDown.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // beverageSelectLabel
             // 
@@ -114,7 +111,6 @@
             this.okButton.TabIndex = 3;
             this.okButton.Text = "OK";
             this.okButton.UseVisualStyleBackColor = true;
-            this.okButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // cancelButton
             // 
@@ -138,7 +134,7 @@
             this.Controls.Add(this.beverageDropDown);
             this.Controls.Add(this.cornSyrupRadioButton);
             this.Controls.Add(this.aspertameRadioButton);
-            this.Controls.Add(this.sugarRadioButton);
+            this.Controls.Add(this.caneSugarRadioButton);
             this.Name = "Options";
             this.Text = "Options";
             this.ResumeLayout(false);
@@ -148,7 +144,7 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton sugarRadioButton;
+        private System.Windows.Forms.RadioButton caneSugarRadioButton;
         private System.Windows.Forms.RadioButton aspertameRadioButton;
         private System.Windows.Forms.ComboBox beverageDropDown;
         private System.Windows.Forms.RadioButton cornSyrupRadioButton;
