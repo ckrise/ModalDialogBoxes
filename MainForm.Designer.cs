@@ -62,7 +62,7 @@
             this.Controls.Add(this.sodaNameLabel);
             this.Controls.Add(this.optionsButton);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Soda Picker";
             this.ResumeLayout(false);
             this.PerformLayout();
 
